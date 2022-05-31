@@ -1,0 +1,67 @@
+/************************* TAG SELECTORS *************************/
+body {
+  background-color: #BFD8B8;
+}
+
+h1 {border-style: dashed;
+color: #B61919;
+font-family: monospace;
+font-size: 36px;
+}
+
+p {color: #B61919;
+font-family: monospace;
+font-size: 18px;}
+
+/*
+img {background-color: #B61919;
+border-style: dashed;
+}
+*/
+div {height: 600px;
+width: 400px;
+border: solid;
+border-width: 0px 10px 20px 30px;
+padding: 20px 20px 20px 20px;
+margin: 25px 25px 25px 25px;}
+/************************* CLASS SELECTORS *************************/
+.div_color_1:hover {
+  background-color: #FFC069;
+}
+
+.div_color_2:hover {
+  background-color: #FFC069;
+}
+
+.top_container {
+
+}
+
+.middle_container {
+
+}
+
+.bottom_container {
+  
+}
+
+.bacon:hover:hover {
+  background-color: gold;
+}
+
+.broccoli:hover {
+  background-color: silver;
+}
+
+.circular_broccoli {
+  border-radius: 100%;
+}
+
+.circular_bacon {
+  border-radius: 100%;
+}
+
+/************************* ID SELECTORS *************************/
+#heading {
+  background-color: blue;
+}

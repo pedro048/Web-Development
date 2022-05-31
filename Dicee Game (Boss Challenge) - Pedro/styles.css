@@ -1,0 +1,62 @@
+body {
+    background-color: gray;
+}
+
+.Title {
+    font-size: 5rem;
+    color: #82DBD8;
+    font-family: 'Fjalla One', sans-serif;
+    position: absolute;
+    top: 4px;
+    left: 600px; 
+}
+
+.Flag {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+.Third_Block {
+    position: absolute;
+    top: 600px;
+    left: 620px;
+}
+
+.website {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+p {
+    color: #82DBD8;
+    font-family: 'Fjalla One', sans-serif; 
+    font-size: 1.5rem; 
+}
+
+.player1 {
+    position: absolute;
+    left: 450px;
+}
+
+.player2 {
+    position: absolute;
+    left: 900px;
+}
+
+#dicee1 {
+    position: absolute;
+    left: 400px;
+    position: absolute;
+    top: 300px;
+    width: 200px;
+}
+
+#dicee2 {
+    position: absolute;
+    left: 850px;
+    position: absolute;
+    top: 300px;
+    width: 200px;
+}
