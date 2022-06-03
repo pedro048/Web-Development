@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+}
+.title {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 3rem;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.container {
+    display: block;
+    width: 35%;
+    margin: auto;
+    background-color: #4B5D67;
+    border: 20px solid black;
+    border-radius: 5%;
+}
+.visor {
+    background-color: white;
+    height: 100px;
+}
+.visor-result {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    padding-top: 35px;
+}
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.b1 {
+    background-image: url("Images/one.jpg");
+}
+.b2 {
+    background-image: url("Images/two.jpg");
+}
+.b3 {
+    background-image: url("Images/three.jpg");
+}
+.bMinus {
+    background-image: url("Images/minus.jpg");
+}
+.b4 {
+    background-image: url("Images/four.jpg");
+}
+.b5 {
+    background-image: url("Images/five.jpg");
+}
+.b6 {
+    background-image: url("Images/six.jpg");
+}
+.bMultiply {
+    background-image: url("Images/multiply.jpg");
+}
+.b7 {
+    background-image: url("Images/seven.jpg");
+}
+.b8 {
+    background-image: url("Images/eight.jpg");
+}
+.b9 {
+    background-image: url("Images/nine.jpg");
+}
+.bDivide {
+    background-image: url("Images/divide.jpg");
+}
+.b0 {
+    background-image: url("Images/zero.jpg");
+}
+.bEqual {
+    background-image: url("Images/equal.jpg");
+}
+.bPlus {
+    background-image: url("Images/plus.jpg");
+}
+.bClean {
+    background-color: red;
+}
