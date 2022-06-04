@@ -8,7 +8,8 @@ h1 {
 }
 
 .container2 {
-    margin-top: 700px;
+    margin-top: 500px;
+    padding-top: 200px;
 }
 
 .character {
@@ -21,8 +22,7 @@ h1 {
 .ground {
     background-image: url("Images/ground.png");
     height: 70px;
-    width: 2900px;
-    margin-top: 20px;
+    width: 3800px;
 }
 
 .cloud {
@@ -31,3 +31,32 @@ h1 {
     width: 200px;
     margin-top: 20px; 
 }
+
+.cloud1 {
+    margin-left: 55%;
+}
+
+.cloud2 {
+    margin-left: 20%;
+}
+
+.cloud3 {
+    margin-left: 80%;
+}
+
+.plant1 {
+    background-image: url("Images/plants1.png");
+    height: 135px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 65%;
+}
+
+.sameRow {
+    display: inline-block;
+}
+
+
+
+
+
