@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container2 {
+    margin-top: 700px;
+}
+
+.character {
+    background-image: url("Images/Dinosaur.png");
+    height: 135px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.ground {
+    background-image: url("Images/ground.png");
+    height: 70px;
+    width: 2900px;
+    margin-top: 20px;
+}
+
+.cloud {
+    background-image: url("Images/cloud.png");
+    height: 135px;
+    width: 200px;
+    margin-top: 20px; 
+}
