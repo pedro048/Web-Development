@@ -1,8 +1,8 @@
+# Web development Portfolio
 
 I am Pedro Victor, a Computer Engineer 👨‍💻  from Brazil🇧🇷 ! welcome for all of you o/
 
-This repository is in charge of display my web development projects and it is also respon
-sable to represent my progress as a full stack web developer student. So, in the images below
+This repository is in charge of display my web development projects and it is also responsable to represent my progress as a full stack web developer student. So, in the images below
 you can find some of the projects that I already made.
 
 ## Dicee Challenge - HTML, CSS, JavaScript (DOM):
