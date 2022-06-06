@@ -1,0 +1,17 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.website-title {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
