@@ -2,6 +2,8 @@
 
 I am Pedro Victor, a Computer Engineer 👨‍💻  from Brazil🇧🇷 ! welcome for all of you o/
 
+My web development skills up to the moment: ![HTML](https://lh3.googleusercontent.com/pw/AM-JKLXeDhZYUpMnYQWX7FqdM87PuKtiwtDx9y1rM0TCGhAVTGe1fQpudern1OMqbwovbg7XKBLtjy7UxEvESbaEjQaspdWb-LpY7CDQGiP5iYlq9FReh5mJgUEZ_ZMUtcGGXbwcbpGab-pGhC8Dj5VNmRfL=w80-h93-no?authuser=0) ![css](https://lh3.googleusercontent.com/pw/AM-JKLXOt_khnecIvy_FScn56zl7mRh1GroMyJYXQGYikxHroRoBX5BN38y6OOJX_F-SuvG06irdSKKByXJ_4PAFXcsQ88Mwg3EEQOXEPlqa4dAMBYtziVXAfljBgTe3i3siTV2112IuQ6T3nBX_7bxRcqJH=w80-h102-no?authuser=0) ![JavaScript](https://lh3.googleusercontent.com/pw/AM-JKLUMGL71aDLKIhafVvLZQo7FXTREEjMVnCkgQ76bNNSBy7-db84ib6XYfSqC_RTtkyzebo6xDsxPvUgjtz2LXTNuqyZdMi5dMe2rGj3qGDJCznpXmbRo6d4ufBTADpQUOoQ4Dith8LmBERS61vnfEKCf=s80-no?authuser=0) ![BootStrap](https://lh3.googleusercontent.com/pw/AM-JKLXkc0ozoLdSAxMvaLGB5U0Io0KXQyPnOszS-_0YVJcReRgQNNGyV0qJuSpYq_9pd2G-ArgISanXMOXjS81LL_fHJZD5qBJ50HajHMLmS4Xy7LLn7BBgIo6fTkx1iJbP8Bfg0gx3c25bHdS5LBeFbjC5=s80-no?authuser=0) ![jQuery](https://lh3.googleusercontent.com/pw/AM-JKLUyEF_SN2cJBgRcimJoWl16YD8gdkgDKWqwUObgrdP-ReuxNqsQp7Eu_lWGURVLnEJCi9qmkshpnH8D7egL4SaYULVaNaPjsUzGSQvRt90ucl16mjhhdQmXVXdc3dhjMDpl-Cs9fcsqsk8k0wO5R306=w80-h60-no?authuser=0)
+
 This repository is in charge of display my web development projects and it is also responsable to represent my progress as a full stack web developer student. So, in the images below
 you can find some of the projects that I already made.
 
