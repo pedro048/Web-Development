@@ -2,7 +2,15 @@
 
 I am Pedro Victor, a Computer Engineer 👨‍💻  from Brazil 🇧🇷 ! welcome for all of you o/
 
-My web development skills up to the moment: ![HTML](https://lh3.googleusercontent.com/pw/AM-JKLV99mu0u4DAu8z1d_traoq3d6lGhXk37TbfnDJyhsGlg1fSVvFpVq0Aj1Bogn1tbIEB5uOtOeANVzmb92tAW9h-UqynkZEvSBgcs1eSHl_-FS08XPZIsQtQX8y4N8520kQa1_otLIStqXZ2yyVPcO9_=s40-no?authuser=0) ![css](https://lh3.googleusercontent.com/pw/AM-JKLWl93LgcW96fnm9xs5Nm0kwnCHDfQ-D3YRjA7cPg335Srq2pa_tGjUPutlDfPP2RuafsKhDsmf17xJDqOA_RwSzXpkCJ_LmZ2g-NM9xvxVwFuNvJ-VKci1FGW2NsOHmI0taKdOcjhj4zvSWdUilRjP4=s40-no?authuser=0) ![JavaScript](https://lh3.googleusercontent.com/pw/AM-JKLUuWE1wNGAGuCfE7nQrd5QNbJgYV19k5YNbdsQgR2IRBfINniIm2kt3rgFJXpGQTVEDUnTHhTFQHLVt_9Eeo4ctvO15-2MqrMXNo51Bdh7GYoUgqsbl5sNiHoQxmgakgI76jdI5rOdkTRKIeR_Qsw6r=s40-no?authuser=0) ![BootStrap](https://lh3.googleusercontent.com/pw/AM-JKLXr37bvvmj4mNVtOLCU-70dg6bQrf13HFGTtpZdwzHA-dTt0wg3hc4bH0Em23UfbeVnIUs-jcN4Q8UgcL_2PLD0WpNz5wjQf-5ExC5OifVqriGw4V8sSu2T82jdw7yRLM25XGZpU3Gj0Z-a2D9z2Fck=s40-no?authuser=0) ![jQuery](https://lh3.googleusercontent.com/pw/AM-JKLXrZepIP0USJItGLQMvyJU75zHq3Y6DRYVpQ0rGZyg7qTdSgKjr2V_htYCJ0RJtZKtdpDlY4kIeyBtiz3NpUiwlnkQwo4NHRy5mIGgaLFFBq4e-IAoAFSzsAk0oBr8MPmXrrwdCziSBntwK0qo9Px-U=w53-h40-no?authuser=0)
+My web development skills up to the moment: 
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Pedro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Pedro-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Pedro-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Pedro-BootStrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />  
+  <img align="center" alt="Pedro-jQuery" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" />
+</div>
 
 This repository is in charge of display my web development projects and it is also responsable to represent my progress as a full stack web development student. So, in the images below
 you can find some of the projects that I already made.
