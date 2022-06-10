@@ -85,3 +85,39 @@ body {
 .icon-feature:hover {
     color: #ff4c68;
 }
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white
+}
+
+.testimonial-text {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+   background-color: #ef8172; 
+   text-align: center;
+   padding-bottom: 3%;
+}
+
+.image-press {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
