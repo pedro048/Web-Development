@@ -1,14 +1,23 @@
 body {
     font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+.container-fluid {
+    padding: 7% 15%;
 }
 
 #title {
     background-color: #ff4c68;
     color: white;
+    text-align: left;
 }
 
 .website-title {
-    font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: bold;
@@ -18,7 +27,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.container-fluid {
+#title .container-fluid {
     padding: 3% 15% 7%;
 }
 
@@ -61,18 +70,15 @@ body {
 /* Features Section */
 
 #features {
-    padding: 7% 15%;
     background-color: white;
     position: relative;   
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
 .feature-title {
-    font-family: "Montserrat-Bold";
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -93,13 +99,11 @@ body {
 /* Testimonial Section */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: white
 }
 
 .testimonial-text {
-    font-family: "Montserrat-Bold";
     font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
@@ -111,13 +115,8 @@ body {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 #press {
    background-color: #ef8172; 
-   text-align: center;
    padding-bottom: 3%;
 }
 
@@ -130,7 +129,6 @@ body {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .card-pricing {
@@ -152,12 +150,9 @@ body {
 
 #cta {
     background-color: #ff4c68;
-    text-align: center;
-    padding: 7% 15%;
 }
 
 .cta-text {
-    font-family: "Montserrat-Black";
     font-weight: bold;
     color: white;
     font-size: 3.5rem;
@@ -168,8 +163,6 @@ body {
 /* Footer */
 
 #footer {
-    padding: 7% 15%;
-    text-align: center;
     background-color: white;
 }
 
