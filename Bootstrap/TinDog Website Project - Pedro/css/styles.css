@@ -52,10 +52,10 @@ body {
 /* Title image */
 
 .title-image {
-    width: 19%;
+    width: 20%;
     transform: rotate(25deg); 
     position: absolute;
-    right: 30%;
+    left: 58%;
 }
 
 /* Features Section */
@@ -136,3 +136,44 @@ body {
 .card-pricing {
     padding: 3% 2%;
 }
+
+@media screen and (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+   .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+   } 
+} 
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-text {
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
