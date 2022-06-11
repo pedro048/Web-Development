@@ -19,7 +19,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -52,14 +52,18 @@ body {
 /* Title image */
 
 .title-image {
-    width: 60%;
+    width: 19%;
     transform: rotate(25deg); 
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
 
 #features {
-    padding: 7% 15%;    
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;   
 }
 
 .feature-box {
