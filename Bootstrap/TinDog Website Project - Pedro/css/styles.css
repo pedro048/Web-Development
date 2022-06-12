@@ -11,9 +11,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 7% 15%;
 }
 
-#title {
+/* Sections */
+
+.colored-section {
     background-color: #ff4c68;
     color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+#title {
     text-align: left;
 }
 
@@ -70,7 +79,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Features Section */
 
 #features {
-    background-color: white;
     position: relative;   
 }
 
@@ -100,7 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #testimonials {
     background-color: #ef8172;
-    color: white
 }
 
 .testimonial-text {
@@ -148,23 +155,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Call to Action */
 
-#cta {
-    background-color: #ff4c68;
-}
-
 .cta-text {
     font-weight: bold;
-    color: white;
     font-size: 3.5rem;
     line-height: 1.5;
     
 }
 
 /* Footer */
-
-#footer {
-    background-color: white;
-}
 
 .social-icon {
     margin: 20px 10px;
