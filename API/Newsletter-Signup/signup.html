@@ -77,18 +77,18 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
-  <form>
+  <form action="/" method="post">
     <img class="mb-4" src="images/logo.jpg" alt="" width="80" height="85">
     <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter!</h1>
 
-    <input type="text" class="form-control" placeholder="First Name" required autofocus>
-    <input type="text" class="form-control" placeholder="Last Name" required>
-    <input type="email" class="form-control" id="floatingPassword" placeholder="Email" required>
+    <input name="firstName" type="text" class="form-control top" placeholder="First Name" required autofocus>
+    <input name="lastName" type="text" class="form-control middle" placeholder="Last Name" required>
+    <input name="email" type="email" class="form-control bottom" id="floatingPassword" placeholder="Email" required>
     
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up!</button>
     <p class="mt-5 mb-3 text-muted">&copy; The App Wisdom</p>
