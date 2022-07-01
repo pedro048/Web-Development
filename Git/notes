@@ -1,0 +1,53 @@
+-----------------------------------------------------------------------
+Local Repositories - Git
+-----------------------------------------------------------------------
+mkdir Story
+touch chapter1.text
+open chapter1.text
+vim chapter1.text
+nano chapter1.text
+
+git init
+git status
+git add chapter1.txt
+git status
+git commit -m "Initial Commit" or git commit -m "Complete Chapter 1"
+git log
+
+touch chapter2.txt
+touch chapter3.txt
+open chapter2.txt
+open chapter3.txt
+git status
+git add .
+git status
+git commit -m "Complete Chapter 2 and 3"
+git log
+
+------------------------
+Changes in chapter3.txt
+------------------------
+git diff chapter3.txt
+git checkout chapter3.txt
+git log
+-----------------------------------------------------------------------
+Remote Repositories - Github
+-----------------------------------------------------------------------
+git remote add origin https://github.com/pedro048/Story.git
+git push -u origin master => NAME OF REMOTE: origin, NAME OF BRANCH: master
+-----------------------------------------------------------------------
+Gitignore
+-----------------------------------------------------------------------
+ls -a => hidden files
+touch .gitignore
+open .gitignore
+git init
+git add .
+git status
+git rm --cached -r . => remove all the files from the staging area
+git status
+                     => write on .gitignore file all the file's names that you do not want to 						 appear
+git add .
+git status
+git commit -m "Initial Commit"
+                     
