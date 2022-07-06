@@ -50,4 +50,41 @@ git status
 git add .
 git status
 git commit -m "Initial Commit"
+-----------------------------------------------------------------------
+Git clone
+-----------------------------------------------------------------------
+git clone ---
+cd ---
+git log
+-----------------------------------------------------------------------
+Branching and merging
+-----------------------------------------------------------------------
+git branch alien-plot => new branch
+git branch => check the branchs
+git checkout alien-plot => change from one branch to another
+ => Change the chapter files
+ git add .
+ git commit -m "modify chapter 1 and 2 to have alien theme"
+ git log
+ git branch => check in which branch you are
+ git checkout master
+ touch chapter4.txt
+ open chapter4.txt
+ => write => It was the time of excess, it was the time of frugality.
+ git add .
+ git commit -m "add chpter 4"
+ git log
+ git checkout alient-plot
+ --------------------------
+ MERGE => merge the master branch with the another one
+ --------------------------
+ git checkout master
+ git merge alien-plot
+ :q!
+ git branch
+ git log
+ git push origin master -u
+ 
+ 
+ 
                      
