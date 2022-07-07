@@ -84,6 +84,10 @@ git checkout alien-plot => change from one branch to another
  git branch
  git log
  git push origin master -u
+ -----------------------------------------------------------------------
+Forking and Pull request
+-----------------------------------------------------------------------
+
  
  
  
