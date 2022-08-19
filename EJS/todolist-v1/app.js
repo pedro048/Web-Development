@@ -5,11 +5,21 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 
+var items = ["Buy Food", "Cook Food", "Eat Food"];
+
 app.get("/", function(req, res){
     var today = new Date();
+    var options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long"
+    };
+    var day = today.toLocaleDateString("en-US", options);
+    res.render("list", {kindOfDay: day, newListItems: items});
+    /*
     var currentDay = today.getDay();
     var day = "";
-    /*
+    
     if (currentDay == 6 || currentDay == 0){ 
         //res.send("<h1 style='color: green;'>Yay it's the weekend!</h1>");
         
@@ -29,6 +39,7 @@ app.get("/", function(req, res){
         day = "Weekday";
     }
     */
+   /*
     switch(currentDay){
         case 1:
             day = "Monday";
@@ -54,7 +65,15 @@ app.get("/", function(req, res){
         default:
         console.log("Error: current day is equal to: " + currentDay);              
        }
+       
     res.render("list", {kindOfDay: day});
+    */
+});
+
+app.post("/", function(req, res){
+    var item = req.body.newItem;
+    items.push(item);
+    res.redirect("/");
 });
 
 app.listen(3000, function(){
