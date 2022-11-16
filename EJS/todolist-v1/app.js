@@ -7,6 +7,7 @@ app.set('view engine', 'ejs');
 
 var items = ["Buy Food", "Cook Food", "Eat Food"];
 
+app.use(express.static("public"));
 app.get("/", function(req, res){
     let today = new Date();
     let options = {
@@ -15,7 +16,7 @@ app.get("/", function(req, res){
         month: "long"
     };
     let day = today.toLocaleDateString("en-US", options);
-    res.render("list", {kindOfDay: day, newListItems: items});
+    res.render("list", {listTitle: day, newListItems: items});
     /*
     var currentDay = today.getDay();
     var day = "";
