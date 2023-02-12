@@ -1,0 +1,50 @@
+CRUD => create, read, update, destroy
+
+CREATE TABLE products (
+	column1 datatype NOT NULL,
+	column2 datatype,
+	column3 datatype,
+	...
+	PRIMARY KEY (column1)
+)
+
+INSERT INTO products (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...)
+
+INSERT INTO products
+VALUES (value1, value2, value3, ...)
+
+SELECT column1, column2, ...
+FROM products
+
+SELECT * FROM products
+
+SELECT * FROM products WHERE column1=something
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+DELETE FROM table_name WHERE condition;
+
+CREATE TABLE orders (
+  id INT not NULL,
+  order_number INT,
+  customer_id INT,
+  product_id INT,
+  PRIMARY KEY (id),
+  FOREIGN KEY (customer_id) REFERENCES customers(id)
+  FOREIGN KEY (product_id) REFERENCES products(id) 
+  )
+  
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
+
+SELECT orders.order_number, customers.first_name, customers.last_name, customers.address
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.id
