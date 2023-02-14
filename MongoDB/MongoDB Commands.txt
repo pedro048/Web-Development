@@ -1,0 +1,85 @@
+########################################################
+After successful installation, start and enable MongoDB:
+########################################################
+=> sudo systemctl enable --now mongod
+########################################################
+Check MongoDB Status:
+########################################################
+=> systemctl status mongod
+########################################################
+Check MongoDB installed version:
+########################################################
+=> mongod --version
+########################################################
+Enable Remote Access on MongoDB 6.0
+########################################################
+=> sudo ufw allow 27017
+########################################################
+Using MongoDB 6.0 Database
+########################################################
+- You can use the following command to reach the MongoDB shell:
+=> mongosh
+########################################################
+Close the shell
+########################################################
+=> exit
+########################################################
+Create a User and Add a Role in MongoDB
+########################################################
+=> use admin
+
+db.createUser(
+{
+user: "mongdbuser",
+pwd: passwordPrompt(), // or cleartext password
+roles: [ { role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase" ]
+}
+)
+
+########################################################
+Log in to the shell with the user credentials to see if the user has been created.
+########################################################
+=> mongosh -u mongdbuser -p --authenticationDatabase admin
+########################################################
+Create a database in MongoDB
+########################################################
+- You can check the available databases:
+=> show dbs
+########################################################
+It’s simple to create a database with MongoDB; all you have to do is switch to a blank database. mymongodb, for instance: (CREATE A DATABASE)
+########################################################
+=> use mongotestdb
+=> use shopDB
+########################################################
+In order to verify in which database you are in:
+########################################################
+=> db
+########################################################
+Create a collection in MongoDB
+########################################################
+In SQL databases, a collection is comparable to a table. Here, a table can be created in the appropriate database using the commands listed below:
+########################################################
+
+db.collection.insertOne({F_Name: "John", L_NAME: "Doe", ID_NO: "23245", AGE: "25", TEL: "63365467666"})
+db.products.insertOne({_id: 1, name: "Pen", price: 1.20})
+
+########################################################
+Once created, use the following command to view the collections:
+########################################################
+=> show collections
+########################################################
+Read data:
+########################################################
+=> db.collection.find() // It is find everything
+=> Using query selectors
+=> db.products.find({name: "Pencil"})
+=> db.products.find({price: {$gt: 1}}) // Using query criteria
+=> db.products.find({price: {$gt: 1}}, {_id: 0, name: 1, price: 1}) // Using query criteria and projection 
+
+
+
+
+
+------------------------------------------------------------
+We have also learned how to create databases, collections, and users.
+------------------------------------------------------------
