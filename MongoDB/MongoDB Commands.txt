@@ -75,6 +75,17 @@ Read data:
 => db.products.find({name: "Pencil"})
 => db.products.find({price: {$gt: 1}}) // Using query criteria
 => db.products.find({price: {$gt: 1}}, {_id: 0, name: 1, price: 1}) // Using query criteria and projection 
+########################################################
+Update Operation:
+########################################################
+=>db.products.updateOne({_id: 1}, {$set: {stock: 32}})
+=>db.products.updateOne({_id: 2}, {$set: {stock: 12}})
+########################################################
+Delete data:
+########################################################
+=> db.products.deleteOne({_id: 2})
+
+
 
 
 
