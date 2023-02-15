@@ -85,7 +85,7 @@ Fruit.find(function(err, fruits){
         });
     }    
 });
-//Update
+//updateOne
 /*
 Fruit.updateOne({_id: "63ebded4d89762364c01eba5"}, {name: "Peach"}, function(err){
     if(err){
