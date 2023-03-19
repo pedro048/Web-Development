@@ -1,4 +1,8 @@
 ########################################################
+Stop MongoDB process:
+########################################################
+=> sudo service mongod stop
+########################################################
 After successful installation, start and enable MongoDB:
 ########################################################
 => sudo systemctl enable --now mongod
